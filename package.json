@@ -1,17 +1,17 @@
 {
-  "name": "dummy_server",
+  "name": "field_app_server",
   "version": "1.0.0",
-  "description": "A simple Express server using Nodemon",
-  "main": "index.js",
+  "description": "A simple Express server using Node.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "cores": "^0.8.5",
     "cors": "^2.8.5",
     "express": "^5.1.0"
   },
